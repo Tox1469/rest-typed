@@ -1,0 +1,19 @@
+{
+  "name": "rest-typed",
+  "version": "1.0.0",
+  "description": "Gerador de cliente REST type-safe a partir de spec",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["rest","typescript","client"],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
